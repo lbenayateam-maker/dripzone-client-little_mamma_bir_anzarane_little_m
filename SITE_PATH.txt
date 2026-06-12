@@ -1,0 +1,4 @@
+Dripzone template export
+Folder: C:\Users\Administrator\Documents\Saas service website\build\Release\websites\little_mamma_bir_anzarane_little_m
+Company: Little Mamma Bir Anzarane
+Template: moroccan-tagine-casablanca-physics

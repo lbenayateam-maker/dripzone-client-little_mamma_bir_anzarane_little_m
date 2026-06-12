@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Tagine House - Casablanca - 3D Physics Scroll — Tagine House - Casablanca"/>
+  <title>Little Mamma Bir Anzarane | Tagine House - Casablanca</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+
+<body class="style-physics moroccan-dark moroccan-v2 bg-[#050508] text-white overflow-x-hidden">
+  <div id="physics-canvas" class="fixed inset-0 -z-10 opacity-20"></div>
+  <div class="fixed inset-0 -z-10 moroccan-arch-pattern opacity-10 pointer-events-none"></div>
+  <nav class="fixed top-0 w-full z-50 bg-gradient-to-b from-black/80 to-transparent px-4 md:px-6 py-4 flex justify-between items-center gap-3">
+    <div class="flex items-center gap-3 min-w-0" data-dz-id="logo">
+      <img src="assets/logo.jpg" alt="Little Mamma Bir Anzarane" class="h-11 w-auto rounded-full border-2 border-red-700/50" data-dz-id="logo-img" onerror="this.onerror=null;this.src='assets/logo.png'"/>
+      <span class="font-serif text-xl tracking-wide truncate" data-dz-editable="logo-text">Little Mamma Bir Anzarane</span>
+    </div>
+    <div class="hidden lg:flex items-center gap-6 text-sm uppercase tracking-widest text-white/70">
+      <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+      <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="flex items-center gap-2 shrink-0"></div>
+  </nav>
+  <section id="hero" data-dz-id="hero" class="min-h-screen flex items-center justify-center px-6 pt-24"><div class="text-center"><h1 class="text-5xl font-black mb-4">Little Mamma Bir Anzarane</h1><p class="text-lg opacity-80 mb-8">Welcome — your trusted RESTAURANT in Casablanca, Morocco</p><a href="https://wa.me/212677295776" class="px-8 py-4 rounded-2xl bg-[var(--primary)] text-black font-bold">WhatsApp Us Now</a></div></section>
+  
+  <section id="about" class="py-16 px-6"><div class="max-w-3xl mx-auto text-center"><h2 class="text-3xl font-bold mb-6">About Us</h2><p class="text-lg opacity-85">Welcome to Little Mamma Bir Anzarane.</p></div></section>
+  <section id="services" data-dz-id="services" class="py-28 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-light mb-14 border-l-4 border-red-700 pl-4" data-dz-editable="services-heading">Our Tagine House - Casablanca</h2>
+    <div class="grid grid grid-cols-1 md:grid-cols-3 gap-6 gap-8"><section id="services" class="py-16 px-6 scroll-section"><div class="max-w-6xl mx-auto"><h2 class="text-3xl font-bold mb-8 text-center">Our Tagine House - Casablanca</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="service-grid"><div class="dz-card p-6 rounded-2xl border border-white/10"><h3 class="text-xl font-bold mb-2">Signature Service</h3><p class="opacity-80">Our most requested premium offering.</p></div><div class="dz-card p-6 rounded-2xl border border-white/10"><h3 class="text-xl font-bold mb-2">Express Package</h3><p class="opacity-80">Fast turnaround without compromising quality.</p></div><div class="dz-card p-6 rounded-2xl border border-white/10"><h3 class="text-xl font-bold mb-2">VIP Experience</h3><p class="opacity-80">Full-service treatment for discerning clients.</p></div></div></div></section></div>
+  </section>
+  
+  
+  <section id="gallery" data-dz-id="gallery" class="py-28 px-6">
+    <h2 class="text-3xl font-light mb-10 text-center" data-dz-editable="gallery-heading">Our Shop</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-6xl mx-auto"></div>
+  </section>
+  
+  
+  <section id="contact" data-dz-id="contact" class="py-28 px-6 text-center">
+    <h2 class="text-3xl font-light mb-6" data-dz-editable="contact-heading">Visit Little Mamma Bir Anzarane</h2>
+    <p data-dz-editable="location">Casablanca, Morocco</p>
+    <p class="text-xl font-semibold mb-2 dz-ltr-value" dir="ltr"><a href="tel:+212 677 29 57 76" class="hover:text-[var(--primary)]">+212 677 29 57 76</a></p>
+    <p class="mb-4">Casablanca, Morocco</p>
+    <div class="mt-6"></div>
+    <a href="https://wa.me/212677295776" target="_blank" rel="noopener noreferrer" class="inline-block mt-8 px-12 py-4 border border-red-700 text-red-300 uppercase tracking-widest text-sm" data-i18n="hero.cta">WhatsApp Us Now</a>
+  </section>
+  <footer class="py-10 text-center text-white/30 text-xs tracking-widest uppercase">© Little Mamma Bir Anzarane</footer>
+  <a href="https://wa.me/212677295776" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 w-14 h-14 rounded-full bg-green-500 flex items-center justify-center text-2xl shadow-xl z-50">💬</a>
+</body>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</html>
